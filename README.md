@@ -35,37 +35,18 @@
 ```json
 
 {
-    "author": {
-        "name": "kazuhide maruyama"
+    "author": "kazuhide maruyama",
+    "name": "grunt-typescript",
+    "description": "compile typescript to javascript",
+    "version": "0.8.0",
+    "homepage": "https://github.com/k-maru/grunt-typescript",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:k-maru/grunt-typescript.git"
     },
     "bugs": {
         "url": "https://github.com/k-maru/grunt-typescript/issues"
     },
-    "dependencies": {
-        "bluebird": "~2.9.34",
-        "chokidar": "^1.0.5",
-        "typescript": "1.6.2"
-    },
-    "description": "compile typescript to javascript",
-    "devDependencies": {
-        "grunt": "~0.4.5",
-        "grunt-contrib-clean": "~0.6.0",
-        "grunt-contrib-nodeunit": "~0.4.1"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "22bdd43ffc59adee9bcd274d32a0b83ca5500290",
-        "tarball": "https://registry.npmjs.org/grunt-typescript/-/grunt-typescript-0.8.0.tgz"
-    },
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "gitHead": "0ecb5d00c84503b00c90c70662d23f0dfe2e3a01",
-    "homepage": "https://github.com/k-maru/grunt-typescript",
-    "keywords": [
-        "gruntplugin",
-        "typescript"
-    ],
     "licenses": [
         {
             "type": "MIT",
@@ -73,25 +54,32 @@
         }
     ],
     "main": "Gruntfile.js",
-    "maintainers": [
-        {
-            "name": "k-maru"
-        }
-    ],
-    "name": "grunt-typescript",
-    "optionalDependencies": {},
-    "peerDependencies": {
-        "grunt": "~0.4.5"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/k-maru/grunt-typescript.git"
-    },
     "scripts": {
         "start": "grunt build",
         "test": "grunt test"
     },
-    "version": "0.8.0"
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "dependencies": {
+        "typescript": "1.6.2",
+        "bluebird": "~2.9.34",
+        "chokidar": "^1.0.5"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.5"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-nodeunit": "~0.4.1",
+        "grunt-contrib-clean": "~0.6.0"
+    },
+    "optionalDependencies": {},
+    "keywords": [
+        "gruntplugin",
+        "typescript"
+    ],
+    "bin": {}
 }
 ```
 
